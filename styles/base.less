@@ -14,6 +14,7 @@ atom-text-editor, :host {
 
   .invisible-character {
     color: @syntax-invisible-character-color;
+    opacity: 0.5;
   }
 
   .gutter {
@@ -49,6 +50,11 @@ atom-text-editor, :host {
   .selection .region {
     background-color: @syntax-selection-color;
   }
+
+  .bracket-matcher .region {
+    background-color: @syntax-selection-color;
+    border-bottom: 0px;
+  }
 }
 
 atom-text-editor .search-results .marker .region,
@@ -70,7 +76,7 @@ atom-text-editor .search-results .marker.current-result .region,
 .entity {
   &.name.type {
     color: @light-orange;
-    text-decoration: underline;
+    font-style: italic;
   }
 
   &.other.inherited-class {
@@ -221,7 +227,7 @@ atom-text-editor .search-results .marker.current-result .region,
 
   &.name.tag {
     color: @red;
-    text-decoration: underline;
+    font-style: italic;
   }
 
   &.other.attribute-name {
