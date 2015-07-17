@@ -1,5 +1,8 @@
 # jovian-night-syntax theme
 
-A short description of your theme.
+Quick theme for Atom editor based on my old Sublime theme
 
-![A screenshot of your theme](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif)
+✓ Hides the line length limit
+✓ Hides invisible characters until you select them
+
+![Screenshot](screenshot.png)
