@@ -1,13 +1,13 @@
 {
   "name": "jovian-night-syntax",
   "theme": "syntax",
-  "version": "0.0.0",
-  "description": "A short description of your syntax theme",
+  "version": "0.1.0",
+  "description": "Based on my old Sublime text theme",
   "keywords": [
     "syntax",
     "theme"
   ],
-  "repository": "https://github.com/atom/jovian-night-syntax",
+  "repository": "http://github.com/dclelland/jovian-night-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
